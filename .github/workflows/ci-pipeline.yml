@@ -25,3 +25,4 @@ jobs:
         # O comando 'verify' do Maven automaticamente compila,
         # executa todos os testes (JUnit/Mockito) e verifica o projeto.
         run: mvn -B verify
+        working-directory: demo
